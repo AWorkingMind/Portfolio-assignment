@@ -17,3 +17,30 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+.bg-sids{
+	background: #181818;
+	height: 100vh;
+}
+.bg-secound{
+	background: #d68c09;
+	height: 100vh;
+}
+.button-work{
+	width: 9rem;
+	border: white solid 2px;
+}
+.button-work:hover{
+	background: #181818;
+	border: #181818 solid 2px;
+}
+
+//fonts//
+.btn-font{
+	font-family: Inter;
+	font-weight: initial;
+	font-size: 0.9rem;
+	color: #ffffff;
+}
+
+//fonts//
+
