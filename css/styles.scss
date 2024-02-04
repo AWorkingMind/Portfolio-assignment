@@ -12,6 +12,7 @@ $custom-colors: (
 	"farve": $cyan-400,
 );
 
+
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
@@ -21,26 +22,230 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	background: #181818;
 	height: 100vh;
 }
-.bg-secound{
+.icon-custom{
+	padding-top: 1.7rem;
+}
+.bg-yellow{
 	background: #d68c09;
 	height: 100vh;
 }
 .button-work{
 	width: 9rem;
-	border: white solid 2px;
+	border: white solid 1px;
+	transition: 200ms ease-out;
 }
 .button-work:hover{
 	background: #181818;
-	border: #181818 solid 2px;
+	border: #181818 solid 1px;
+	transition: 200ms ease-in;
 }
-
+.button-work-md{
+	height: 3.5rem;
+	width: 11.5rem;
+	border: white solid 1px;
+	transition: 200ms ease-out;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.button-work-md:hover{
+	background: #ffffff;
+	border: #ffffff solid 1px;
+	transition: 200ms ease-in;
+	color: #1a1e21;
+}
+.btn-margin-md{
+	margin-right: 6rem;
+	margin-left: 6rem;
+}
+.front-page-image{
+	margin-top: 9rem;
+	min-height: 40vh;
+}
+.top-pic{
+	z-index: 2;
+	bottom: 5rem;
+	left: 5rem;
+	object-fit: cover;
+	width: 80%;
+	height: 80%;
+}
+.front-pic{
+	z-index: 2;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.bottom-pic{
+	z-index: 1;
+	top: 7rem;
+	right: 5rem;
+	object-fit: cover;
+	width: 80%;
+	height: 80%;
+}
 //fonts//
 .btn-font{
 	font-family: Inter;
 	font-weight: initial;
 	font-size: 0.9rem;
 	color: #ffffff;
+	letter-spacing: 6px;
 }
-
+.btn-font-md{
+	font-family: Inter;
+	font-weight: initial;
+	font-size: 0.9rem;
+	color: #ffffff;
+	letter-spacing: 6px;
+}
+.btn-font-md:hover{
+	color: #1a1e21;
+}
 //fonts//
+//Animations//
+@keyframes image-animation {
+	0% {
 
+	}
+	50% {
+
+	}
+	100% {
+
+	}
+}
+//scroll-Animations//
+
+//scroll-Animations//
+
+
+//Animations//
+@media screen and (min-width:768px )	 {
+	.front-page-image{
+		margin-top: 13rem;
+		min-height: 40vh;
+	}
+	.top-pic{
+		z-index: 2;
+		bottom: 8rem;
+		left: 10rem;
+		object-fit: cover;
+		width: 90%;
+		height: 90%;
+	}
+	.front-pic{
+		z-index: 2;
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+	.bottom-pic{
+		z-index: 1;
+		top: 11rem;
+		right: 10rem;
+		object-fit: cover;
+		width: 90%;
+		height: 90%;
+	}
+	.front-page-image{
+		margin-top: 18rem;
+		min-height: 40vh;
+	}
+}
+@media screen and (min-width:1024px )	 {
+	.front-page-image{
+		margin-top: 9rem;
+		min-height: 20vh;
+		height: 50vh;
+	}
+	.top-pic{
+		bottom: 8rem;
+		left: 7rem;
+		width: 90%;
+		height: 80%;
+	}
+	.front-pic{
+		width: 100%;
+		height: 90%;
+	}
+	.bottom-pic{
+		top: 8rem;
+		right: 7rem;
+		width: 90%;
+		height: 80%;
+	}
+	.btn-margin-md{
+		margin-right: 8rem;
+		margin-left: 8rem;
+	}
+	.button-work-md{
+		height: 2.5rem;
+		width: 9rem;
+	}
+}
+@media screen and (min-width:1440px ){
+	.front-page-image{
+		margin-top: 6rem;
+		min-height: 20vh;
+		height: 70vh;
+	}
+	.top-pic{
+		bottom: 20rem;
+		left: 15rem;
+		width: 50%;
+		height: 60%;
+	}
+	.front-pic{
+		width: 60%;
+		height: 70%;
+	}
+	.bottom-pic{
+		top: 10rem;
+		right: 15rem;
+		width: 50%;
+		height: 60%;
+	}
+	.btn-margin-md{
+		margin-right: 12rem;
+		margin-left: 12rem;
+	}
+	.button-work-md{
+		height: 3rem;
+		width: 11rem;
+	}
+}
+@media screen and (min-width:1920px ){
+	.front-page-image{
+		margin-top: 10rem;
+		min-height: 20vh;
+		height: 50vh;
+	}
+	.top-pic{
+		bottom: 11rem;
+		left: 12rem;
+		width: 80%;
+		height: 80%;
+	}
+	.front-pic{
+		width: 90%;
+		height: 90%;
+	}
+	.bottom-pic{
+		top: 11rem;
+		right: 12rem;
+		width: 80%;
+		height: 80%;
+	}
+	.btn-margin-md{
+		margin-right: 9rem;
+		margin-left: 9rem;
+	}
+	.button-work-md{
+		height: 2.6rem;
+		width: 12rem;
+	}
+	.btn-font-md{
+		font-size: 1.1rem;
+	}
+}
