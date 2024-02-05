@@ -155,9 +155,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 @media screen and (min-width:1024px )	 {
 	.front-page-image{
-		margin-top: 9rem;
+		margin-top: 10rem;
 		min-height: 20vh;
-		height: 50vh;
+		height: 45vh;
 	}
 	.top-pic{
 		bottom: 8rem;
@@ -186,25 +186,25 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 @media screen and (min-width:1440px ){
 	.front-page-image{
-		margin-top: 6rem;
+		margin-top: 8rem;
 		min-height: 20vh;
-		height: 70vh;
+		height: 50vh;
 	}
 	.top-pic{
-		bottom: 20rem;
-		left: 15rem;
-		width: 50%;
-		height: 60%;
+		bottom: 7rem;
+		left: 8rem;
+		width: 90%;
+		height: 90%;
 	}
 	.front-pic{
-		width: 60%;
-		height: 70%;
+		width: 100%;
+		height: 100%;
 	}
 	.bottom-pic{
-		top: 10rem;
-		right: 15rem;
-		width: 50%;
-		height: 60%;
+		top: 7rem;
+		right: 8rem;
+		width: 90%;
+		height: 90%;
 	}
 	.btn-margin-md{
 		margin-right: 12rem;
