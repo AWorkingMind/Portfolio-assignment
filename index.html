@@ -43,10 +43,12 @@
 			</div>
 
 			<div class="icon-container pt-5 ps-1 d-none d-md-block ms-3">
-				<i class="col-12 pt-5 mt-1 position-relative icon-custom fa-xl fa-brands fa-instagram text-white"></i>
-				<i class="col-12 pt-5 mt-1 position-relative icon-custom fa-xl fa-brands fa-linkedin text-white"></i>
-				<i class="col-12 pt-5 mt-1 position-relative icon-custom fa-xl fa-brands fa-square-twitter text-white"></i>
-				<i class="col-12 pt-5 mt-1 position-relative icon-custom fa-xl fa-brands fa-square-facebook text-white"></i>
+				<div class="row flex-column-reverse">
+				<i class="col-1 pt-5 mt-1 position-relative icon-custom fa-xl fa-brands fa-instagram"></i>
+				<i class="col-1 pt-5 mt-1 position-relative icon-custom fa-xl fa-brands fa-linkedin"></i>
+				<i class="col-1 pt-5 mt-1 position-relative icon-custom fa-xl fa-brands fa-square-twitter"></i>
+				<i class="col-1 pt-5 mt-1 position-relative icon-custom fa-xl fa-brands fa-square-facebook"></i>
+				</div>
 			</div>
 		<!-------------------------icons-sm-md-lg-end----------------------->
 		</div>
@@ -55,7 +57,7 @@
 		<div class="bg-yellow col-6 col-md-4 col-lg-2 p-0 m-0">
 			<!----------------frontpage-photos-and-buttons------------------->
 				<div class="front-page-image position-relative ps-0 justify-content-center d-flex">
-					<img class="top-pic position-absolute" src="images/Retro-top-pic.jpg" alt="Billede af Christian Rasmussen">
+					<img class="top-pic position-absolute mousemove" id="top-pic" src="images/Retro-top-pic.jpg" alt="Billede af Christian Rasmussen">
 					<img class="front-pic position-absolute" src="images/Retro-Front-pic.jpg" alt="Billede af Christian Rasmussen">
 					<img class="bottom-pic position-absolute" src="images/Retro-bottom-pic.jpg" alt="Billede af Christian Rasmussen">
 				</div>
@@ -85,7 +87,7 @@
 
 
 
-<script src="scroll.js"></script>
+<script src="parallax.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

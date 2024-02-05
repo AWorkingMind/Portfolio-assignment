@@ -24,6 +24,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 .icon-custom{
 	padding-top: 1.7rem;
+	color: white;
+}
+.icon-custom:hover{
+	color: #d68c09;
 }
 .bg-yellow{
 	background: #d68c09;
@@ -76,6 +80,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	z-index: 3;
 	transition: 200ms;
 	transform: scale(1.1);
+	filter: drop-shadow(0 0 0.75rem #111111);
 }
 .front-pic{
 	z-index: 2;
@@ -88,6 +93,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .front-pic:hover{
 	transform: scale(1.1);
 	transition: 200ms;
+	filter: drop-shadow(0 0 0.75rem #111111);
 }
 .bottom-pic{
 	z-index: 1;
@@ -103,6 +109,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	z-index: 3;
 	transition: 200ms;
 	transform: scale(1.1);
+	filter: drop-shadow(0 0 0.75rem #111111);
 }
 //fonts//
 .btn-font{
