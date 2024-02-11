@@ -33,6 +33,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	background: #d68c09;
 	height: 100vh;
 }
+//----------Buttons-------------//
 .button-work{
 	width: 9rem;
 	border: white solid 1px;
@@ -58,6 +59,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	transition: 200ms ease-in;
 	color: #1a1e21;
 }
+//----------Buttons-------------//
 .btn-margin-md{
 	margin-right: 6rem;
 	margin-left: 6rem;
@@ -111,6 +113,22 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	transform: scale(1.1);
 	filter: drop-shadow(0 0 0.75rem #111111);
 }
+//Showcase//
+.showcase{
+
+	background: white;
+}
+.card{
+	height: 50vh;
+	background: #181818;
+	border-radius: 3px;
+	transition: 600ms;
+}
+.card.active{
+	flex-grow: 0.9;
+	transition: 600ms;
+}
+//Showcase//
 //fonts//
 .btn-font{
 	font-family: Inter;
@@ -163,8 +181,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 //scroll-Animations//
 
 //scroll-Animations//
-
-
 //Animations//
 //skalering//
 @media screen and (min-width:768px )	 {
@@ -228,6 +244,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	.button-work-md{
 		height: 2.5rem;
 		width: 9rem;
+	}
+	.card{
+		height: 70vh;
 	}
 }
 @media screen and (min-width:1440px ){
