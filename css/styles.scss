@@ -115,7 +115,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 //Showcase//
 .showcase{
-
 	background: white;
 }
 .card{
@@ -128,7 +127,24 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	flex-grow: 0.9;
 	transition: 600ms;
 }
+.card-sm{
+	height: 15vh;
+	width: 95vw;
+	background: #181818;
+	transition: 600ms;
+}
+.card-sm.active{
+	height: 70vh;
+	transition: 600ms;
+}
 //Showcase//
+//Aboutme//
+.aboutme{
+	background: #181818;
+	height: 100vh;
+}
+
+//Aboutme//
 //fonts//
 .btn-font{
 	font-family: Inter;
@@ -146,6 +162,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 .btn-font-md:hover{
 	color: #1a1e21;
+}
+.show-font{
+	font-family: "Montserrat";
+	font-weight: bold;
 }
 //fonts//
 //Animations//
